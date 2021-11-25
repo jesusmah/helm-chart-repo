@@ -1,0 +1,58 @@
+apiVersion: v1
+entries:
+  ibm-automation-foundation-core-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-25T11:41:18.43031+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 4c890a8f2530fdc977260b42743d487673cf77e7579890cdbd7221d8a07211a0
+    name: ibm-automation-foundation-core-operator
+    type: application
+    urls:
+    - https://jesusmah.github.io/helm-chart-repo/ibm-automation-foundation-core-operator-0.1.2.tgz
+    version: 0.1.2
+  ibm-catalogs:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-11-25T11:41:18.431604+01:00"
+    description: A Helm chart for Kubernetes
+    digest: e2d103ff8737a0da2b8ac77f8fa461b0080cf340b647617ca3b333e36c7ef98d
+    name: ibm-catalogs
+    type: application
+    urls:
+    - https://jesusmah.github.io/helm-chart-repo/ibm-catalogs-0.2.3.tgz
+    version: 0.2.3
+  ibm-db2u-operator:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-11-25T11:41:18.432414+01:00"
+    description: A Helm chart for Kubernetes
+    digest: d23e6482567dca9b0d0f1b13f449b2cb0d0efb21c2876fa3bd702c64bda2d933
+    name: ibm-db2u-operator
+    type: application
+    urls:
+    - https://jesusmah.github.io/helm-chart-repo/ibm-db2u-operator-0.1.0.tgz
+    version: 0.1.0
+  ibm-process-mining-instance:
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2021-11-25T11:41:18.43323+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 8caf8d76cb9310df61e799eae1e511bd0128746af999d742d5225296c4341ba5
+    name: ibm-process-mining-instance
+    type: application
+    urls:
+    - https://jesusmah.github.io/helm-chart-repo/ibm-process-mining-instance-1.0.2.tgz
+    version: 1.0.2
+  ibm-process-mining-operator:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2021-11-25T11:41:18.434988+01:00"
+    description: A Helm chart for Kubernetes
+    digest: ae78fe15e338c51004332b57fd84ca2ecd612ab90c4546fb906b2a90ae74cb08
+    name: ibm-process-mining-operator
+    type: application
+    urls:
+    - https://jesusmah.github.io/helm-chart-repo/ibm-process-mining-operator-0.1.1.tgz
+    version: 0.1.1
+generated: "2021-11-25T11:41:18.426671+01:00"
