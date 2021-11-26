@@ -3,7 +3,7 @@ entries:
   ibm-automation-foundation-core-operator:
   - apiVersion: v2
     appVersion: "1.2"
-    created: "2021-11-25T11:47:13.375476+01:00"
+    created: "2021-11-26T09:39:08.613094+01:00"
     description: A Helm chart for Kubernetes
     digest: be7d4e74ce4453d4edfb81f3dca483a5788510c641fe7cc89b9edf98c3b369d6
     name: ibm-automation-foundation-core-operator
@@ -14,7 +14,7 @@ entries:
   ibm-catalogs:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-11-25T11:47:13.377076+01:00"
+    created: "2021-11-26T09:39:08.614657+01:00"
     description: A Helm chart for Kubernetes
     digest: e2d103ff8737a0da2b8ac77f8fa461b0080cf340b647617ca3b333e36c7ef98d
     name: ibm-catalogs
@@ -25,9 +25,9 @@ entries:
   ibm-db2u-operator:
   - apiVersion: v2
     appVersion: "1.1"
-    created: "2021-11-25T11:47:13.377454+01:00"
+    created: "2021-11-26T09:39:08.615089+01:00"
     description: A Helm chart for Kubernetes
-    digest: b80731573a35426053f1c45c008d3242069bfff29fcc643d89f9f6b1931c63cd
+    digest: 69dfbe83bc79de93371cff48de5fa6bfc8cc33cf08686812129ef45828c9a5e8
     name: ibm-db2u-operator
     type: application
     urls:
@@ -36,7 +36,7 @@ entries:
   ibm-process-mining-instance:
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2021-11-25T11:47:13.379049+01:00"
+    created: "2021-11-26T09:39:08.615769+01:00"
     description: A Helm chart for Kubernetes
     digest: 8caf8d76cb9310df61e799eae1e511bd0128746af999d742d5225296c4341ba5
     name: ibm-process-mining-instance
@@ -47,7 +47,7 @@ entries:
   ibm-process-mining-operator:
   - apiVersion: v2
     appVersion: "2.0"
-    created: "2021-11-25T11:47:13.379404+01:00"
+    created: "2021-11-26T09:39:08.617082+01:00"
     description: A Helm chart for Kubernetes
     digest: e89b6fb16582d46cabd7ac78654fb2ceadc4c1cc2eaca73ee6847290a81a6a81
     name: ibm-process-mining-operator
@@ -55,4 +55,4 @@ entries:
     urls:
     - https://jesusmah.github.io/helm-chart-repo/ibm-process-mining-operator-0.1.1.tgz
     version: 0.1.1
-generated: "2021-11-25T11:47:13.373035+01:00"
+generated: "2021-11-26T09:39:08.611984+01:00"
