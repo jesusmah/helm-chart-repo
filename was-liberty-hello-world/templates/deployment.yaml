@@ -19,6 +19,7 @@ spec:
       labels:
         app.kubernetes.io/component: backend
         app.kubernetes.io/name: was-sample-app-helm
+        lastConfigLoaded: {{ .Values.lastConfigLoaded }}
     spec:
       containers:
         - name: app
