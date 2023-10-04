@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: was-sample-app-helm
+  name: {{ .Values.appName }}
   labels:
     app.kubernetes.io/component: backend
-    app.kubernetes.io/name: was-sample-app-helm
+    app.kubernetes.io/name: {{ .Values.appName }}
     chart.name: {{ .Chart.Name }}
     chart.version: {{ .Chart.Version }}
 spec:
@@ -19,4 +19,4 @@ spec:
       targetPort: 9080
   type: ClusterIP
   selector:
-    app.kubernetes.io/name: was-sample-app-helm
+    app.kubernetes.io/name: {{ .Values.appName }}

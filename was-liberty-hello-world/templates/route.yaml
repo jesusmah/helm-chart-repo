@@ -1,7 +1,7 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: was-sample-app-helm
+  name: {{ .Values.appName }}
   labels:
     app.kubernetes.io/component: backend
     app.kubernetes.io/name: was-sample-app-helm

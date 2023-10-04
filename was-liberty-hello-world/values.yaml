@@ -2,3 +2,4 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 lastConfigLoaded: "2023-10-01_00-00-00"
+appName: was-liberty-hello-world-helm
