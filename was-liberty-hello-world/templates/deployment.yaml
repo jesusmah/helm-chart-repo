@@ -3,6 +3,7 @@ apiVersion: apps/v1
 metadata:
   name: {{ .Values.appName }}
   annotations:
+    {{- toYaml .Values.annotations | nindent 4 }}
     lastConfigLoaded: {{ .Values.lastConfigLoaded }}
   labels:
     app.kubernetes.io/component: backend
