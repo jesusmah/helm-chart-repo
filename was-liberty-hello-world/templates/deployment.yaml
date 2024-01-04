@@ -27,6 +27,9 @@ spec:
       containers:
         - name: app
           imagePullPolicy: IfNotPresent
+          envFrom:
+            - configMapRef:
+                name: globalConfiguration
           env:
             - name: WLP_LOGGING_CONSOLE_LOGLEVEL
               value: info
