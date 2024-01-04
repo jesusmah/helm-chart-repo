@@ -20,6 +20,8 @@ spec:
       labels:
         app.kubernetes.io/component: backend
         app.kubernetes.io/name: {{ .Values.appName }}
+        # IMPORTANT: We need this annotation so that all resources generated
+        # as a result of this Deployment, get updated 
         lastConfigLoaded: {{ .Values.lastConfigLoaded }}
     spec:
       containers:

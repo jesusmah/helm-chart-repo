@@ -3,7 +3,7 @@ entries:
   ibm-automation-foundation-core-operator:
   - apiVersion: v2
     appVersion: "1.2"
-    created: "2024-01-03T13:47:29.442064+01:00"
+    created: "2024-01-04T13:48:26.889527+01:00"
     description: A Helm chart for Kubernetes
     digest: be7d4e74ce4453d4edfb81f3dca483a5788510c641fe7cc89b9edf98c3b369d6
     name: ibm-automation-foundation-core-operator
@@ -14,7 +14,7 @@ entries:
   ibm-catalogs:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-03T13:47:29.44364+01:00"
+    created: "2024-01-04T13:48:26.891325+01:00"
     description: A Helm chart for Kubernetes
     digest: badd85e29827c556947de5cac280b03c9ad79858f2ad3ab502a1e9a9d9b0a7a0
     name: ibm-catalogs
@@ -24,7 +24,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-03T13:47:29.442966+01:00"
+    created: "2024-01-04T13:48:26.890532+01:00"
     description: A Helm chart for Kubernetes
     digest: e2d103ff8737a0da2b8ac77f8fa461b0080cf340b647617ca3b333e36c7ef98d
     name: ibm-catalogs
@@ -35,7 +35,7 @@ entries:
   ibm-common-services:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-03T13:47:29.444103+01:00"
+    created: "2024-01-04T13:48:26.891902+01:00"
     description: A Helm chart for Kubernetes
     digest: 8198a07be2c87b390561635bf94b4bd00750057d4fb0490f731bd246eb71a1d4
     name: ibm-common-services
@@ -46,7 +46,7 @@ entries:
   ibm-common-services-instance:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-03T13:47:29.444708+01:00"
+    created: "2024-01-04T13:48:26.892719+01:00"
     description: A Helm chart for Kubernetes
     digest: 6a7976421737e1945080ffa8d536cad8db76162ae2fbbc463e00bae3dc53883f
     name: ibm-common-services-instance
@@ -57,7 +57,7 @@ entries:
   ibm-db2u-operator:
   - apiVersion: v2
     appVersion: "1.1"
-    created: "2024-01-03T13:47:29.44554+01:00"
+    created: "2024-01-04T13:48:26.893572+01:00"
     description: A Helm chart for Kubernetes
     digest: 69dfbe83bc79de93371cff48de5fa6bfc8cc33cf08686812129ef45828c9a5e8
     name: ibm-db2u-operator
@@ -68,7 +68,7 @@ entries:
   ibm-eventstreams-instance:
   - apiVersion: v2
     appVersion: 10.5.0
-    created: "2024-01-03T13:47:29.446107+01:00"
+    created: "2024-01-04T13:48:26.894226+01:00"
     description: A Helm chart for Kubernetes
     digest: 496a697ac2c3da7dda78d2fd1fb19ed70fdfa67171f631f66a3e2f6b994bf954
     name: ibm-eventstreams-instance
@@ -79,7 +79,7 @@ entries:
   ibm-eventstreams-operator:
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2024-01-03T13:47:29.447251+01:00"
+    created: "2024-01-04T13:48:26.89537+01:00"
     description: A Helm chart for Kubernetes
     digest: e9fea025c29bd981408fd52ab0bbcc5eeefb8ad164941d294dc1191990b18b2a
     name: ibm-eventstreams-operator
@@ -89,7 +89,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-03T13:47:29.446645+01:00"
+    created: "2024-01-04T13:48:26.894811+01:00"
     description: A Helm chart for Kubernetes
     digest: 9c1e11b0033994814b8abd984dd9a348658d75efd65fabcaaa271fa432f79bec
     name: ibm-eventstreams-operator
@@ -100,7 +100,7 @@ entries:
   ibm-process-mining-instance:
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2024-01-03T13:47:29.447804+01:00"
+    created: "2024-01-04T13:48:26.895863+01:00"
     description: A Helm chart for Kubernetes
     digest: 8caf8d76cb9310df61e799eae1e511bd0128746af999d742d5225296c4341ba5
     name: ibm-process-mining-instance
@@ -111,7 +111,7 @@ entries:
   ibm-process-mining-operator:
   - apiVersion: v2
     appVersion: "2.0"
-    created: "2024-01-03T13:47:29.448442+01:00"
+    created: "2024-01-04T13:48:26.89649+01:00"
     description: A Helm chart for Kubernetes
     digest: e89b6fb16582d46cabd7ac78654fb2ceadc4c1cc2eaca73ee6847290a81a6a81
     name: ibm-process-mining-operator
@@ -122,7 +122,17 @@ entries:
   was-liberty-hello-world:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-03T13:47:29.452076+01:00"
+    created: "2024-01-04T13:48:26.901429+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 2ae48582e67170281095511b735691eb2a4fc105412a6b7d9aad2981b0df5421
+    name: was-liberty-hello-world
+    type: application
+    urls:
+    - https://jesusmah.github.io/helm-chart-repo/was-liberty-hello-world-7.0.0.tgz
+    version: 7.0.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-01-04T13:48:26.901176+01:00"
     description: A Helm chart for Kubernetes
     digest: a2e241d93cffaa093ab7908f2089cddf4e990345884c093d2c4e0b9a8cd06ff2
     name: was-liberty-hello-world
@@ -132,7 +142,7 @@ entries:
     version: 6.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-03T13:47:29.451812+01:00"
+    created: "2024-01-04T13:48:26.900603+01:00"
     description: A Helm chart for Kubernetes
     digest: 3a8c18c70f33952dc927d62ed740823fb3edaf06db4e0eb22cbcb01a70993820
     name: was-liberty-hello-world
@@ -142,7 +152,7 @@ entries:
     version: 5.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-03T13:47:29.451215+01:00"
+    created: "2024-01-04T13:48:26.899993+01:00"
     description: A Helm chart for Kubernetes
     digest: 65ee5a9d8161e88d6c328bf237954e4a67f5eb7eebe0fdb75b9ba570b84d0ddf
     name: was-liberty-hello-world
@@ -152,7 +162,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-03T13:47:29.450622+01:00"
+    created: "2024-01-04T13:48:26.89861+01:00"
     description: A Helm chart for Kubernetes
     digest: 512c5d5c9887aab57d213e083b98f8edd6037917fe1d52a6de015c0252dd0bf8
     name: was-liberty-hello-world
@@ -162,7 +172,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-03T13:47:29.449993+01:00"
+    created: "2024-01-04T13:48:26.898016+01:00"
     description: A Helm chart for Kubernetes
     digest: 12e569b070ff028c19aa84ebe482caf7e1b2a35ece3a0a60ce3c85246dfcf954
     name: was-liberty-hello-world
@@ -172,7 +182,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-03T13:47:29.449286+01:00"
+    created: "2024-01-04T13:48:26.897389+01:00"
     description: A Helm chart for Kubernetes
     digest: 8ae4e1327ec513e93a859f698ee11eb7b09273f167285e6967e8ca2b49d0cc0d
     name: was-liberty-hello-world
@@ -180,4 +190,4 @@ entries:
     urls:
     - https://jesusmah.github.io/helm-chart-repo/was-liberty-hello-world-1.0.0.tgz
     version: 1.0.0
-generated: "2024-01-03T13:47:29.441003+01:00"
+generated: "2024-01-04T13:48:26.88854+01:00"
