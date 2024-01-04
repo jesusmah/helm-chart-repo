@@ -29,7 +29,7 @@ spec:
           imagePullPolicy: IfNotPresent
           envFrom:
             - configMapRef:
-                name: globalConfiguration
+                name: global-configuration
           env:
             - name: WLP_LOGGING_CONSOLE_LOGLEVEL
               value: info

@@ -1,6 +1,6 @@
 kind: ConfigMap
 apiVersion: v1
 metadata:
-  name: globalConfiguration
+  name: global-configuration
 data:
   {{- toYaml .Values.globalConfiguration | nindent 2 }}
