@@ -1,0 +1,7 @@
+# Default values for was-liberty-hello-world
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+lastConfigLoaded: "value-from-helm-chart"
+# lastConfigLoaded: "2023-10-01_00-00-00"
+appName: liberty-hello-world
+globalConfiguration: {}

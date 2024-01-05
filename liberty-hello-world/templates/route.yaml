@@ -1,0 +1,17 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: {{ .Values.appName }}
+  labels:
+    app.kubernetes.io/component: backend
+    app.kubernetes.io/name: {{ .Values.appName }}
+spec:
+  to:
+    kind: Service
+    name: {{ .Values.appName }}
+    weight: 100
+  port:
+    targetPort: 9080-tcp
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Allow
