@@ -23,7 +23,7 @@ spec:
         # We need this annotation so that all resources generated
         # as a result of this Deployment, get updated when global
         # configuration changes
-        lastConfigLoaded: {{ .Values.lastConfigLoaded }}
+        lastConfigLoaded: {{ .Values.globalConfiguration.lastConfigLoaded }}
     spec:
       containers:
         - name: app
