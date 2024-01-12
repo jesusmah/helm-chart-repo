@@ -30,7 +30,7 @@ spec:
           imagePullPolicy: IfNotPresent
           envFrom:
             - configMapRef:
-                name: global-configuration
+                name: gc-{{ .Values.appName }}
           env:
             - name: WLP_LOGGING_CONSOLE_LOGLEVEL
               value: info
